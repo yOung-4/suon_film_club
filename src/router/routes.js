@@ -13,6 +13,21 @@ const routes = [
         name: "main",
         component: () => import("pages/WelcomePage.vue"),
       },
+      {
+        path: "contact",
+        name: "contact",
+        component: () => import("pages/ContactPage.vue"),
+      },
+      {
+        path: "news",
+        name: "news",
+        component: () => import("pages/NewsPage.vue"),
+      },
+      {
+        path: "about",
+        name: "about",
+        component: () => import("pages/AboutPage.vue"),
+      },
     ],
   },
 

@@ -1,16 +1,19 @@
 <script>
 import CarouselComponent from "components/CarouselComponents.vue";
-import ToolBar from "components/ToolBar.vue";
+import MobileIndex from "src/components/MobileIndex.vue";
+import CardGroup from "src/components/CardGroup.vue";
 
 export default {
   components: {
     CarouselComponent,
-    ToolBar,
+    MobileIndex,
+    CardGroup,
   },
 };
 </script>
 
 <template>
-  <ToolBar />
-  <CarouselComponent />
+  <CarouselComponent class="gt-sm" />
+  <CardGroup class="gt-sm" />
+  <MobileIndex class="lt-md" />
 </template>
