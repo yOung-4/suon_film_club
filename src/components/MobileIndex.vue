@@ -13,7 +13,7 @@ export default {
     <q-card class="bg-black shadow-5" style="margin: 3%; margin-top: 5%">
       <q-card-section horizontal>
         <q-img
-          src="film.png"
+          src="https://r2.suon-film-club.com/film.png"
           width="20%"
           height="20%"
           class="shadow-10"
