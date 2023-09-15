@@ -32,6 +32,7 @@ export default {
         :to="{ name: 'about' }"
         label="about"
       />
+      <q-route-tab name="news" :to="{ name: 'news' }" label="news" />
       <q-route-tab name="contact" :to="{ name: 'contact' }" label="contact" />
     </q-tabs>
   </q-toolbar>

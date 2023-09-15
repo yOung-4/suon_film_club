@@ -21,7 +21,6 @@ export default {
     navigation
     dark
     height="400px"
-    class="shadow-10"
   >
     <q-carousel-slide
       name="one"
@@ -72,21 +71,22 @@ export default {
     <q-carousel-slide
       name="three"
       img-src="https://r2.suon-film-club.com/background3.jpg"
+      @click="this.$router.push({ name: 'news' })"
     >
       <div class="text-center text-h1 text-bold" style="margin-top: 5%">
-        Join Us Now
+        Play Next
       </div>
       <q-separator
         dark
         size="2px"
         color="white"
-        style="margin-left: 10%; margin-right: 10%"
+        style="margin-left: 10%; margin-right: 10%; margin-top: 1.5%"
       />
-      <div class="text-center text-h4 text-bold" style="margin-top: 1%">
-        Club Fair on
+      <div class="text-center text-h3 text-bold" style="margin-top: 1%">
+        Yi Yi
       </div>
-      <div class="text-center text-h3" style="margin-top: 0.5%">
-        13th Sept 3:00pm
+      <div class="text-center text-h4" style="margin-top: 0.5%">
+        15th Sept 6:30pm to 9:20pm
       </div>
     </q-carousel-slide>
   </q-carousel>

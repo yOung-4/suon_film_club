@@ -95,12 +95,13 @@ export default {
     <q-card class="bg-secondary shadow-5" style="margin: 3%">
       <q-card-section>
         <div>
-          <div class="text-h4 text-white text-center">Join Us Now</div>
+          <div class="text-h4 text-white text-center">Play Next</div>
           <q-separator
             color="white"
             style="margin-top: 2%; margin-right: 3%; margin-left: 3%"
           />
-          <div class="text-h5 text-white text-center">13th Sept 3:00pm</div>
+          <div class="text-h6 text-white text-center">13th Sept 3:00pm</div>
+          <div class="text-bold text-center text-h4 text-white">Yi Yi</div>
         </div>
       </q-card-section>
     </q-card>
