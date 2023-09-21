@@ -86,7 +86,7 @@ export default {
         Yi Yi
       </div>
       <div class="text-center text-h4" style="margin-top: 0.5%">
-        15th Sept 6:30pm to 9:20pm
+        time is not decided yet...
       </div>
     </q-carousel-slide>
   </q-carousel>

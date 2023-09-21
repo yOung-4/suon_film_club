@@ -30,6 +30,10 @@ const routes = [
       },
     ],
   },
+  {
+    path: "/metronome/play",
+    component: () => import("layouts/MetronomeLayout.vue"),
+  },
 
   // Always leave this as last one,
   // but you can also remove it

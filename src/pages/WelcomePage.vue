@@ -1,7 +1,7 @@
 <script>
-import CarouselComponent from "components/CarouselComponents.vue";
-import MobileIndex from "src/components/MobileIndex.vue";
-import CardGroup from "src/components/CardGroup.vue";
+import CarouselComponent from "src/components/WelcomePage/CarouselComponents.vue";
+import MobileIndex from "src/components/WelcomePage/MobileIndex.vue";
+import CardGroup from "src/components/WelcomePage/CardGroup.vue";
 
 export default {
   components: {
@@ -13,7 +13,7 @@ export default {
 </script>
 
 <template>
-  <CarouselComponent class="gt-sm" />
-  <CardGroup class="gt-sm" />
-  <MobileIndex class="lt-md" />
+  <CarouselComponent v-if="$q.platform.is.desktop" />
+  <CardGroup v-if="$q.platform.is.desktop" />
+  <MobileIndex v-if="$q.platform.is.mobile" />
 </template>

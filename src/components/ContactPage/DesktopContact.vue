@@ -1,6 +1,6 @@
 <script>
-import EmailAddress from "src/components/EmailAddress.vue";
-import ParallaxCompoents from "src/components/ParallaxCompoents.vue";
+import EmailAddress from "src/components/ContactPage/EmailAddress.vue";
+import ParallaxCompoents from "src/components/ContactPage/ParallaxCompoents.vue";
 
 export default {
   components: {
