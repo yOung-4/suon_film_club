@@ -16,14 +16,23 @@
   <q-btn
     v-if="!this.show"
     label="start"
+    class="bg-primary text-white"
     style="margin: 2%"
     @click="this.show = true"
+  />
+  <q-btn
+    v-if="!this.show"
+    label="clear count"
+    style="margin: 2%"
+    @click="count = 1"
   />
   <FullScreen
     v-if="this.show"
     :bpm="ibpm"
     :maxnum="imaxnum"
+    :saveCount="count"
     @click="this.show = false"
+    @saveCount="(saveCount) => (this.count = saveCount)"
   />
 </template>
 
@@ -39,6 +48,7 @@ export default {
       show: false,
       ibpm: 100,
       imaxnum: 4,
+      count: 1,
     };
   },
 };

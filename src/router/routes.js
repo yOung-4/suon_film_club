@@ -31,7 +31,7 @@ const routes = [
     ],
   },
   {
-    path: "/metronome/play",
+    path: "/play",
     component: () => import("layouts/MetronomeLayout.vue"),
   },
 
